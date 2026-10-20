@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tore"
+    namespace = "com.example.app"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -19,9 +19,9 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.tore"
+        applicationId = "com.example.app"
         minSdk = 21
-        targetSdk = 36
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
     }
